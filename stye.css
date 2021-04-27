@@ -67,7 +67,7 @@ footer{
 .flip-card1 {
   background-color: transparent;
   width: 250px;
-  height: 600px;
+  height: 500px;
   perspective: 1000px;
 }
 
@@ -98,7 +98,7 @@ footer{
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: rgb(253, 252, 252);
   color: black;
 }
 
