@@ -1,0 +1,68 @@
+/* .carousel,
+.carousel-inner,
+.carousel-item > img {
+  height: 250px;
+}
+
+.carousel-item > img {
+  object-fit: cover;
+} */
+.container-fluid {
+  font-size: 18px;
+}
+.text_1{
+  font-size: 18px;
+}
+body{
+  font-family: 'Mali', cursive;
+  
+}
+.navbar{
+  height: 70px;
+}
+.card {
+  max-width: 300px;
+  transition: all 0.2s ease;
+  
+}
+.card:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform:scale(1.1) ;
+}
+
+.My_pro{
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.con_tact{
+  text-align: center;
+  padding: auto;
+}
+
+.me_img{
+  width: 50% ;
+}
+.title_1{
+  text-align: center;
+  padding-top: 80px;
+}
+footer{
+  
+  height:100%;
+  clear:both;
+  padding-bottom:0px;
+}
+.bg_color{
+  margin: 50px !important;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item > img {
+    height: 500px;
+  }
+  
+}
