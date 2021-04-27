@@ -20,15 +20,14 @@ body{
 .navbar{
   height: 70px;
 }
-/* .card {
+.card{
   max-width: 300px;
   transition: all 0.2s ease;
-  
-} */
-/* .card:hover {
+}
+.card:hover {
   box-shadow: 5px 6px 6px 2px #e9ecef;
   transform:scale(1.1) ;
-} */
+}
 
 .My_pro{
   text-align: center;
@@ -60,15 +59,13 @@ footer{
 
 .flip-card {
   background-color: transparent;
-  width: 350px;
-  height: 300px;
-  perspective: 1000px;
+  max-width: 300px;
+  max-height: 300px;
 }
 .flip-card1 {
   background-color: transparent;
   width: 300px;
   height: 600px;
-  perspective: 1000px;
 }
 
 .flip-card-inner {
