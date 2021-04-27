@@ -26,7 +26,7 @@ body{
 }
 .card:hover {
   box-shadow: 5px 6px 6px 2px #e9ecef;
-  transform:scale(1.1) ;
+  transform:scale(1.2) ;
 }
 
 .My_pro{
@@ -57,7 +57,7 @@ footer{
 }
 
 
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   max-width: 300px;
   max-height: 300px;
@@ -83,7 +83,7 @@ footer{
 }
 .flip-card1:hover .flip-card-inner {
   transform: rotateY(180deg);
-}
+} 
 
 
 .flip-card-front, .flip-card-back {
@@ -103,7 +103,7 @@ footer{
   background-color:white;
   color:black;
   transform: rotateY(180deg);
-}
+} */
 
 
 @media only screen and (min-width: 600px) {
