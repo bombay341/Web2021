@@ -60,13 +60,13 @@ footer{
 
 .flip-card {
   background-color: transparent;
-  width: 250px;
+  width: 300px;
   height: 300px;
   perspective: 1000px;
 }
 .flip-card1 {
   background-color: transparent;
-  width: 250px;
+  width: 300px;
   height: 500px;
   perspective: 1000px;
 }
