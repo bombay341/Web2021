@@ -60,6 +60,36 @@ footer{
   background-image: url(/My_img/bg.jpg);
   background-position-x: center;
 }
+.circle-wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  padding: 2%;
+  transform: translate(-100%, 0%);
+}
+
+.circle {
+  border-radius: 50%;
+  background-clip: content-box;
+  animation: spin 10s linear infinite;
+}
+
+.circle-wrapper:active .circle {
+  animation: spin 2s linear infinite;
+}
+
+.bord_1 {
+  padding: 30px;
+  border: 10px dashed #ff5100;
+}
+
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
 
 
 /* .flip-card {
