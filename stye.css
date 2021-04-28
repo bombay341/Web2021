@@ -54,6 +54,11 @@ footer{
 }
 .bg_color{
   margin: 50px !important;
+  
+}
+.bg_1{
+  background-image: url(/My_img/bg.jpg);
+  background-position-x: center;
 }
 
 
