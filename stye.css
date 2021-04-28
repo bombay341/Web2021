@@ -60,6 +60,13 @@ footer{
   background-image: url(/My_img/bg.jpg);
   background-position-x: center;
 }
+.bg-3{
+  background-image: url(/My_img/bg3.gif);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* ทำวงกลมหมุนๆ */
 .circle-wrapper {
   position: relative;
