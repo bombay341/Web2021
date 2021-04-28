@@ -12,6 +12,7 @@ body{
 .navbar{
   height: 70px;
 }
+/* ทำการ์ด */
 .card{
   max-width: 300px;
   transition: all 0.2s ease;
@@ -22,10 +23,13 @@ body{
   box-shadow: 5px 6px 6px 2px #e9ecef;
   transform:scale(1.2) ;
 }
-
+/* รูปโปร */
 .My_pro{
   text-align: center;
   padding-top: 5vh;
+}
+.me_img{
+  width: 50% ;
 }
 
 .con_tact{
@@ -33,19 +37,18 @@ body{
   padding: auto;
 }
 
-.me_img{
-  width: 50% ;
-}
 .title_1{
   text-align: center;
   padding-top: 80px;
 }
+
 footer{
   width: 100%;
   height:100%;
   clear:both;
   padding-bottom:0px;
 }
+
 .bg_color{
   margin: 50px !important;
   
@@ -68,6 +71,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* ทำวงกลมหมุนๆ */
 .circle-wrapper {
   position: relative;
@@ -99,55 +103,6 @@ footer{
     transform: rotateZ(360deg);
   }
 }
-
-
-/* .flip-card {
-  background-color: transparent;
-  max-width: 300px;
-  max-height: 300px;
-}
-.flip-card1 {
-  background-color: transparent;
-  width: 300px;
-  height: 600px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-.flip-card1:hover .flip-card-inner {
-  transform: rotateY(180deg);
-} 
-
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: rgb(253, 252, 252);
-  color: black;
-}
-
-.flip-card-back {
-  background-color:white;
-  color:black;
-  transform: rotateY(180deg);
-} */
 
 
 @media only screen and (min-width: 600px) {
